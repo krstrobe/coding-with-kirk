@@ -1,0 +1,25 @@
+{
+  "name": "Learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "foo": "echo 123",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "jest": "^27.5.1",
+    "typescript": "^4.5.4"
+  }
+}
+
