@@ -7,7 +7,9 @@ function Zumba() {
   // const answer2 = answerState[0];
   // const setAnswer2 = answerState[1];
 
-  const [resultMessage, setResultMessage] = useState('Guess the number');
+  const [resultMessage, setResultMessage] = useState(
+    'Guess the number, please'
+  );
 
   useEffect(() => {
     const answerLocal = Math.round(Math.random() * 1000);
