@@ -40,3 +40,7 @@ CI is contiunous integration server
 With Yarn you can omit run, with NPM you can't
 
 git add --all && git commit -m "progress" && git push - doing all steps at once for staging, commiting, and pushing
+
+node -v (check version of any binary usually) binary is a command line application
+
+--help
