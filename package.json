@@ -14,7 +14,7 @@
     "start": "next start",
     "lint": "next lint",
     "foo": "echo 123",
-    "test": "jest"
+    "test": "jest --testPathPattern sum"
   },
   "devDependencies": {
     "@types/react": "^17.0.38",
